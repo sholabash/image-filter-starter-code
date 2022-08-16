@@ -68,7 +68,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
   // Root Endpoint
   // Displays a simple message to the user
   app.get( "/", async ( req, res ) => {
-    res.send("try GET filteredimage?image_url=https://media.istockphoto.com/photos/abstract-wavy-object-picture-id1198271727?b=1%26k=20%26m=1198271727%26s=170667a%26w=0%26h=b626WM5c-lq9g_yGyD0vgufb4LQRX9UgYNWPaNUVses=")
+    res.send("Try GET filteredimage?image_url=https://media.istockphoto.com/photos/abstract-wavy-object-picture-id1198271727?b=1%26k=20%26m=1198271727%26s=170667a%26w=0%26h=b626WM5c-lq9g_yGyD0vgufb4LQRX9UgYNWPaNUVses=")
   } );
   
 
